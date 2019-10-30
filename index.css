@@ -1,72 +1,151 @@
- body{
- width: 960px;
- height:705px;  
- margin: auto;
- /* display: inline-block; */
- size: 100%;
- /* width: 100%; */
-}
-#a{
-width: 960px;
-height: 100px; 
-background-color: antiquewhite;
-text-align: center;
-line-height: 100px;
-}
-#b{
-    width: 200px;
-    line-height: 605px;
-    text-align: center;
-background-color: brown;
-}
-#c{
-    width: 377px;
-    line-height: 200px;
-    text-align: center;
-background-color: chartreuse;;
-}
-#d{
-    width: 377px;
-    line-height: 200px;
-    text-align: center;
-background-color: coral;
-}
-#e{
+
+    body{
+    width: 960px;
+    height:705px;  
+    margin: auto;
+     /* display: inline-block; */
+    size: 100%;
+     /* width: 100%;  */
+   }
+   #a{ 
+   width: 960px;
+   height: 100px; 
+   background-color: antiquewhite;
+   text-align: center;
+   line-height: 100px;
+   }
+   #b{
+       width: 202px;
+       line-height: 605px;
+       text-align: center;
+   background-color: brown;
+   }
+   #c{
+       width: 377px;
+       line-height: 200px;
+       text-align: center;
+   background-color: chartreuse;;
+   }
+   #d{
+       width: 377px;
+       line-height: 200px;
+       text-align: center;
+   background-color: coral;
+   }
+   #e{
+       
+       text-align: center;
+       background-color: darkgreen;
     
-    text-align: center;
-    background-color: darkgreen;
- 
-}
-#f{
-    text-align: center;
-    background-color: darkslateblue;
-}
-#g{
-      
-    text-align: center;
-    background-color: floralwhite;
-}
-#h{
-     
-    text-align: center;
-    background-color: grey;
-}
-#i{
-    width: 756px;
-    line-height: 150px;
-    text-align: center;
-background-color: hotpink;
-}
-div{
-    display: inline-block;
- border: 1px solid black;
-}
-#e, #f, #g, #h{
-    width: 187.5px; ;
-    line-height: 250px;
-    /* display: inline-block; */
-}
-#parent > div{
-    float: left;
-    clear: none;
+   }
+   #f{
+       text-align: center;
+       background-color: darkslateblue;
+   }
+   #g{
+         
+       text-align: center;
+       background-color: floralwhite;
+   }
+   #h{
+        
+       text-align: center;
+       background-color: grey;
+   }
+   #i{
+       width: 756px;
+       line-height: 150px;
+       text-align: center;
+   background-color: hotpink;
+   }
+   div{
+       display: inline-block;
+    border: 1px solid black;
+   }
+   #e, #f, #g, #h{
+       width: 187.5px; ;
+       line-height: 250px;
+       /* display: inline-block; */
+   }
+   #parent > div{
+       float: left;
+       clear: none;
+ }
+ @media screen and (max-width: 960px){
+    .conteneur-flex{
+        /* flex-flow: column wrap; */
+    }
+    body{
+        width: 400px;
+        height:767px;  
+        margin: auto;
+        /* display: inline-block; */
+        size: 100%;
+        /* width: 100%; */
+       }
+       #a{ 
+       width: 480px;
+       height: 75px; 
+       background-color: rgb(93, 224, 32);
+       text-align: center;
+       line-height: 100px;
+       }
+       #b{
+           width: 480px;
+           line-height: 150px;
+           text-align: center;
+       background-color: rgb(103, 184, 204);
+       }
+       #c{
+           width: 480px;
+           line-height: 125px;
+           text-align: center;
+       background-color: rgb(199, 80, 149);;
+       }
+       #d{
+           width: 480px;
+           line-height: 125px;
+           text-align: center;
+       background-color: rgb(112, 26, 224);
+       }
+       #e{
+           
+           text-align: center;
+           background-color: rgb(247, 131, 85);
+        
+       }
+       #f{
+           text-align: center;
+           background-color: rgb(161, 235, 222);
+       }
+       #g{
+             
+           text-align: center;
+           background-color: rgb(153, 136, 156);
+       }
+       #h{
+            
+           text-align: center;
+           background-color: rgb(217, 223, 135);
+       }
+       #i{
+           width: 480px;
+           line-height: 80px;
+           text-align: center;
+       background-color: rgb(14, 218, 31);
+       }
+       div{
+           display: inline-block;
+        border: 1px solid rgb(226, 184, 184);
+       }
+       #e, #f, #g, #h{
+           width: 239px; ;
+           line-height: 250px;
+           /* display: inline-block; */
+       }
+       #parent > div{
+           float: left;
+           clear: none;
+       }
+       
 }
