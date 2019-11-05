@@ -71,39 +71,126 @@
        float: left;
        clear: none;
  }
- @media screen and (max-width: 479px){
+@media screen and (max-width: 960px){
+    .conteneur-flex{
+    /* flex-flow: column wrap; */
+    }
+ body{
+    width: 640px;
+    height:352px;  
+    margin: auto;
+     /* display: inline-block; */
+     size: 100%;
+     /* width: 100%;  */
+   }
+   #a{ 
+   width: 640px;
+   height: 50px; 
+   background-color: rgb(155, 152, 149);
+   text-align: center;
+   line-height: 50px;
+   }
+   #b{
+       width: 150px;
+       line-height: 305px;
+       text-align: center;
+   background-color: rgb(151, 142, 142);
+   }
+   #c{
+       width: 243px;
+       line-height: 100px;
+       text-align: center;
+   background-color: rgb(128, 131, 125);;
+   }
+   #d{
+       width: 243px;
+       line-height: 100px;
+       text-align: center;
+   background-color: rgb(146, 140, 137);
+   }
+   #e{
+       
+       text-align: center;
+       background-color: rgb(129, 133, 129);
+    
+   }
+   #f{
+       text-align: center;
+       background-color: rgb(119, 118, 122);
+   }
+   #g{
+         
+       text-align: center;
+       background-color: rgb(145, 143, 139);
+   }
+   #h{
+        
+       text-align: center;
+       background-color: grey;
+   }
+   #i{
+       width: 640px;
+       line-height: 75px;
+       text-align: center;
+   background-color: rgb(129, 124, 127);
+   }
+   div{
+       display: inline-block;
+    border: 1px solid rgb(107, 104, 104);
+   }
+   #e, #f, #g, #h{
+       width: 243px; ;
+       line-height: 100.5px;
+       
+       /* display: inline-block; */
+   }
+   #parent > div{
+       float: left;
+       clear: none; 
+   }
+   }
+
+   @media screen and (max-width: 640px){
     .conteneur-flex{
         /* flex-flow: column wrap; */
     }
     body{
-        width: 400px;
+        width: 480px;
         height:767px;  
         margin: auto;
         /* display: inline-block; */
         size: 100%;
         /* width: 100%; */
        }
-       #a{ 
+       #a, #b, #c, #d, #i{ 
        width: 480px;
        height: 75px; 
        background-color: rgb(93, 224, 32);
        text-align: center;
        line-height: 100px;
        }
-       #b{
-           width: 480px;
+       #e, #f, #g, #h{
+        width: 239px;
+        height: 239px; 
+        background-color: rgb(93, 224, 32);
+        text-align: center;
+        line-height: 150px;
+
+       }
+       /* #b{
+           width: 640px;
            line-height: 150px;
            text-align: center;
        background-color: rgb(103, 184, 204);
        }
        #c{
-           width: 480px;
+           width: 6400px;
            line-height: 125px;
            text-align: center;
        background-color: rgb(199, 80, 149);;
        }
        #d{
-           width: 480px;
+           width: 640px;
            line-height: 125px;
            text-align: center;
        background-color: rgb(112, 26, 224);
@@ -129,7 +216,7 @@
            background-color: rgb(217, 223, 135);
        }
        #i{
-           width: 480px;
+           width: 640px;
            line-height: 80px;
            text-align: center;
        background-color: rgb(14, 218, 31);
@@ -142,89 +229,11 @@
            width: 239px; ;
            line-height: 250px;
            /* display: inline-block; */
-       }
+       /* }
        #parent > div{
            float: left;
            clear: none;
-       }
-       
+       } */
+        
 }
 
-@media screen and (max-width: 960px){
-    .conteneur-flex{
-    /* flex-flow: column wrap; */
-    }
- body{
-    width: 480px;
-    height:352px;  
-    margin: auto;
-     /* display: inline-block; */
-     size: 100%;
-     /* width: 100%;  */
-   }
-   #a{ 
-   width: 480px;
-   height: 50px; 
-   background-color: antiquewhite;
-   text-align: center;
-   line-height: 50px;
-   }
-   #b{
-       width: 101px;
-       line-height: 305px;
-       text-align: center;
-   background-color: brown;
-   }
-   #c{
-       width: 187px;
-       line-height: 100px;
-       text-align: center;
-   background-color: chartreuse;;
-   }
-   #d{
-       width: 187px;
-       line-height: 100px;
-       text-align: center;
-   background-color: coral;
-   }
-   #e{
-       
-       text-align: center;
-       background-color: darkgreen;
-    
-   }
-   #f{
-       text-align: center;
-       background-color: darkslateblue;
-   }
-   #g{
-         
-       text-align: center;
-       background-color: floralwhite;
-   }
-   #h{
-        
-       text-align: center;
-       background-color: grey;
-   }
-   #i{
-       width: 480px;
-       line-height: 75px;
-       text-align: center;
-   background-color: hotpink;
-   }
-   div{
-       display: inline-block;
-    border: 1px solid black;
-   }
-   #e, #f, #g, #h{
-       width: 187px; ;
-       line-height: 100px;
-       
-       /* display: inline-block; */
-   }
-   #parent > div{
-       float: left;
-       clear: none; 
-   }
-   }
